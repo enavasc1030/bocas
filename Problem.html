@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+body {
+	background-color: #f6f6ff;
+	font-family: Calibri, Myriad;
+}
+
+#main {
+	width: 780px;
+	padding: 20px;
+	margin: auto;
+}
+
+table.maraton {
+	margin: auto;
+	width: 600px;
+	border-collapse: collapse;
+	border: 1px solid #fff; /*for older IE*/
+	border-style: hidden;
+}
+
+table.maraton caption {
+	background-color: #f79646;
+	color: #fff;
+	font-size: x-large;
+	font-weight: bold;
+	letter-spacing: .3em;
+}
+
+table.maraton thead th {
+	padding: 8px;
+	background-color: #fde9d9;
+	font-size: large;
+}
+
+table.maraton thead th#thDay {
+	width: 40%;	
+}
+
+table.maraton thead th#thRegular, table.maraton thead th#thOvertime, table.maraton thead th#thTotal {
+	width: 20%;
+}
+
+table.maraton th, table.maraton td {
+	padding: 3px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #f79646 #ccc;
+}
+
+table.maraton td {
+	text-align: right;
+}
+
+table.maraton tbody th {
+	text-align: left;
+	font-weight: normal;
+}
+
+table.maraton tfoot {
+	font-weight: bold;
+	font-size: large;
+	background-color: #687886;
+	color: #fff;
+}
+
+table.maraton tr.even {
+	background-color: #fde9d9;
+}
+</style>
+<title>Pruebas Maraton</title>
+</head>
+
+<body>
+<div id="main">
+<table class="maraton">
+	<caption>PROBLEMS</caption>
+	<thead>
+		<tr>
+			<th id="thDay">Problem #</th>
+			<th id="thRegular">Short Name</th>
+			<th id="thOvertime">FullName</th>
+			<th id="thTotal">BaseName</th>
+			<th id="thTotal">DescFile</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="odd">
+			<th>1</th>
+			<td>A</td>
+			<td>The Problem</td>
+			<td>abacaxi</td>
+			<td>abacaxi.dll</td>
+		</tr>
+		<tr class="even">
+			<th>2</th>
+			<td>B</td>
+			<td>PROBLEM B</td>
+			<td>MULTAS</td>
+			<td>MULTAS.DLL</td>
+		</tr>
+		<tr class="odd">
+			<th>3</th>
+			<td>C</td>
+			<td>The Problem C</td>
+			<td>abacaxi</td>
+			<td>abacaxi.dll</td>
+			
+		</tr>
+		
+	</tbody>
+	
+	<tfoot>
+		<tr>
+					</tr>
+					
+	</tfoot>
+</table>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+	<body>
+		<div id="principal">
+			<header>
+				<div id="logo">
+					<h2 class="titulo">Software Boca</h2>
+					
+					<img src="img/nino.jpg" width="800" height="300">	
+					
+				</div>
+
+				<nav class="menu">
+							
+					<ul>
+						<li><a href="Contest.html">Contest</a></li>
+						<li><a href="Import.html">Import</a></li>							
+						<li><a href="options.html">Options</a></li>
+						<li><a href="logout.html">Logout</a></li>	
+						
+						</ul>
+					
+				</nav>
+			</header>
+
+			<body>
+        <h1>Import</h1>
+        <br><br>
+        <div>
+			<table>
+				<tr>
+					<td>
+						<label for="Number">Local site Number:</label>
+						<input type="number" name="quantity" min="1" max="5">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="Nombre">Impor file:</label>							
+						<input type="Text" name="cedula" placeholder="Import File ">
+						<form method="post" action="subir_archivo.php" enctype="multipart/form-data">
+                        <input type="file" name="archivo" /><br />
+                        <input type="submit" value="Import" />
+						 <input type="submit" value="Clear" />
+</form>
+					</td>
+				</tr>
+			</table>
+		</div>
+        <br><br>
+
+			
+		</div>
+
+	</body>
+</html>
